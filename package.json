@@ -1,9 +1,9 @@
 {
-"name": "HANSAMAL-MD",    
+"name": "VIHAGA-MD",    
 "version": "1.0.0",
 "scripts": {
-"start": "pm2 start index.js --deep-monitoring --attach --name HANSAMAL-MD",
-"stop": "pm2 stop HANSAMAL",
+"start": "pm2 start index.js --deep-monitoring --attach --name VIHAGA-MD",
+"stop": "pm2 stop VIHAGA",
 "restart": "git pull && npm stop && npm start",
 "stash": "git stash && git stash drop"
 },
